@@ -2,7 +2,7 @@
 
 Aplikasi web manajemen tugas berbasis **Laravel 11** lengkap dengan fitur autentikasi, CRUD, dashboard admin, dan tampilan modern.
 
-Video Presentasi
+Link Video Presentasi
 https://drive.google.com/file/d/10o3K1zleuOQgvRVgKCsBau9oG_yrhzYw/view?usp=drivesdk
 
 ---
