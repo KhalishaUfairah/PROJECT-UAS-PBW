@@ -1,10 +1,10 @@
-# 📚 TaskMaster — Sistem Manajemen Tugas Sekolah/Kuliah
+## TaskMaster — Sistem Manajemen Tugas Sekolah/Kuliah
 
 Aplikasi web manajemen tugas berbasis **Laravel 11** lengkap dengan fitur autentikasi, CRUD, dashboard admin, dan tampilan modern.
 
 ---
 
-## ✅ Fitur yang Diimplementasikan
+## Fitur yang Diimplementasikan
 
 | No | Kriteria | Status |
 |----|----------|--------|
@@ -19,7 +19,7 @@ Aplikasi web manajemen tugas berbasis **Laravel 11** lengkap dengan fitur autent
 
 ---
 
-## 🗄️ Struktur Database & Relasi
+## Struktur Database & Relasi
 
 ```
 users           → hasMany tasks, hasMany task_comments
@@ -36,7 +36,7 @@ task_comments   → belongsTo task, belongsTo user
 
 ---
 
-## 🚀 Cara Instalasi & Menjalankan
+## Cara Instalasi & Menjalankan
 
 ### Prasyarat
 - PHP >= 8.2
@@ -76,7 +76,7 @@ Buka browser: **http://localhost:8000**
 
 ---
 
-## 🔑 Akun Demo (setelah seeder)
+## Akun Demo (setelah seeder)
 
 | Role | Email | Password |
 |------|-------|----------|
@@ -86,7 +86,7 @@ Buka browser: **http://localhost:8000**
 
 ---
 
-## 📱 Alur Aplikasi (Demo)
+## Alur Aplikasi (Demo)
 
 ### Sebagai Mahasiswa:
 1. **Register** → Buat akun baru dengan data akademik
@@ -107,7 +107,7 @@ Buka browser: **http://localhost:8000**
 
 ---
 
-## 📂 Struktur File Penting
+## Struktur File Penting
 
 ```
 app/
@@ -138,7 +138,7 @@ bootstrap/app.php                   ← Registrasi middleware
 
 ---
 
-## 🎨 Fitur Unggulan
+## Fitur Unggulan
 
 - **Dark theme** modern dengan sidebar navigasi
 - **Statistik real-time** di dashboard
@@ -152,7 +152,7 @@ bootstrap/app.php                   ← Registrasi middleware
 
 ---
 
-## ⚙️ Validasi Input yang Diimplementasikan
+## Validasi Input yang Diimplementasikan
 
 - Semua field wajib tervalidasi
 - Format email dicek
